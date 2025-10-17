@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32WB5MMGH6TR")(type "KiCad")(uri "${KIPRJMOD}/lib/STM32WB5MMGH6TR/STM32WB5MMGH6TR.kicad_sym")(options "")(descr ""))
+  (lib (name "TMAG3001A1YBGR")(type "KiCad")(uri "${KIPRJMOD}/lib/TMAG3001A1YBGR/TMAG3001A1YBGR.kicad_sym")(options "")(descr ""))
+)

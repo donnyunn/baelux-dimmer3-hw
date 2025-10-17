@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Baelux")(type "KiCad")(uri "${KIPRJMOD}/lib/Baelux.pretty")(options "")(descr ""))
+  (lib (name "STM32WB5MMGH6TR")(type "KiCad")(uri "${KIPRJMOD}/lib/STM32WB5MMGH6TR")(options "")(descr ""))
+  (lib (name "TMAG3001A1YBGR")(type "KiCad")(uri "${KIPRJMOD}/lib/TMAG3001A1YBGR")(options "")(descr ""))
+)

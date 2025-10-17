@@ -1,0 +1,224 @@
+(footprint "Dome_Switch"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ffdeb4be-17fd-4b33-9291-27f3a936540f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Dome_Switch"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2a9c1a77-0755-4ff0-a1cb-7f71026767a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97f51a37-3175-469b-b11f-c9bc796c94aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b02ca2a-cc07-4b2a-bc1c-f81b83dfef9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dd102d8-c3cc-406b-aab0-09e24733516a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 1.511341)
+		(end -4.5 -1.511341)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "34da061b-c4ee-40bf-a3f7-dd2f9bafd981")
+	)
+	(fp_line
+		(start 1.493474 -4.488699)
+		(end -1.500146 -4.488699)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b36ac32d-6681-4bee-b433-a523083cf75f")
+	)
+	(fp_line
+		(start 1.499854 4.511301)
+		(end -1.5 4.511301)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0bfac33b-c942-4f13-b110-c3faf37489fc")
+	)
+	(fp_line
+		(start 4.5 1.511241)
+		(end 4.5 -1.488659)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e9010ec-148e-45a8-84a5-b219593c76b5")
+	)
+	(fp_arc
+		(start -4.5 -1.511341)
+		(mid -3.613395 -3.617976)
+		(end -1.500146 -4.488699)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f4094ceb-ff2a-4f05-9b9c-e810fa1e7453")
+	)
+	(fp_arc
+		(start -1.5 4.511301)
+		(mid -3.621322 3.63265)
+		(end -4.5 1.511341)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ec25c8e-d821-41be-a54f-b6fe9077e6da")
+	)
+	(fp_arc
+		(start 1.493474 -4.488699)
+		(mid 3.619012 -3.612301)
+		(end 4.5 -1.488659)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9ca2ece-e021-42a9-aa39-282b65043053")
+	)
+	(fp_arc
+		(start 4.499914 1.511241)
+		(mid 3.621246 3.632633)
+		(end 1.499854 4.511301)
+		(stroke
+			(width 0.06)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e6cb130f-998b-44ad-a5d1-4e4670bbcdaf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5376232-e374-4a9d-b673-26e1fc3888d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.9 -2.9)
+		(size 1 1)
+		(drill 1)
+		(layers "F&B.Cu")
+		(uuid "7f79cd3d-6e21-4e48-a29e-cda1705e18b0")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.9 2.9)
+		(size 1 1)
+		(drill 1)
+		(layers "F&B.Cu")
+		(uuid "c397d291-1cc8-4136-b49b-55b79d9778eb")
+	)
+	(pad "1" thru_hole circle
+		(at -0.9 0)
+		(size 0.3 0.3)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "f9363bab-e3ed-4fce-bca5-e97bbd8f5fab")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "5d3ea37c-2ce7-4c25-8b7e-bf96dc4e9aa2")
+	)
+	(pad "1" thru_hole circle
+		(at 0.9 0)
+		(size 0.3 0.3)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "bb4ce50f-bbc3-4891-96bd-3b9e0a79d53e")
+	)
+	(pad "2" smd custom
+		(at 0 2.5)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center 0 -2.5)
+				(end 2.5 -2.5)
+				(width 1)
+				(fill no)
+			)
+		)
+		(uuid "553b7248-5946-49fa-a260-62d5b9986a3c")
+	)
+)
