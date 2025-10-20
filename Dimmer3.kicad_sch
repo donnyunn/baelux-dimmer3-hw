@@ -6829,7 +6829,7 @@
 		(uuid "5f754910-2b5a-40fa-87fe-9261a0d887c7")
 	)
 	(label "SWDIO"
-		(at 196.85 264.16 180)
+		(at 196.85 261.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6839,7 +6839,7 @@
 		(uuid "7355b989-79ec-46e4-9498-568a40ec0254")
 	)
 	(label "LPUART_TXD"
-		(at 196.85 271.78 180)
+		(at 196.85 274.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6869,7 +6869,7 @@
 		(uuid "94f90711-92b3-40bd-86e9-88ac13fbe280")
 	)
 	(label "SWCLK"
-		(at 196.85 261.62 180)
+		(at 196.85 264.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6879,7 +6879,7 @@
 		(uuid "9d3ed48e-67b1-4fb3-8477-1cf595a6fc1d")
 	)
 	(label "NRST"
-		(at 196.85 274.32 180)
+		(at 196.85 271.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7039,7 +7039,7 @@
 		(uuid "d20345be-3027-4e7e-9556-7780168c252f")
 	)
 	(label "LPUART_TXD"
-		(at 40.64 193.04 0)
+		(at 40.64 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7099,7 +7099,7 @@
 		(uuid "e3568a76-9754-40af-870a-376429c34069")
 	)
 	(label "LPUART_RXD"
-		(at 40.64 195.58 0)
+		(at 40.64 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)

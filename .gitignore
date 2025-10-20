@@ -10,11 +10,11 @@
 
 /*-backups/
 
-#JLC PCB generated files. Exclude everything except the database.
+# PCB generated files. Exclude everything except the database.
 
-/jlcpcb/production_files
+/production_files
 
-/jlcpcb/gerber
+/gerber
 
 # Temporary files
 
